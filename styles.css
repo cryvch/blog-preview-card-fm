@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Figtree Italic;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Figtree Var;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Figtree Medium;
+    src: url(./assets/fonts/static/Figtree-Medium.ttf);
+}
+
+@font-face {
+    font-family: Figtree Bold;
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Figtree", Medium;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.card {
+    background: hsl(0, 0%, 100%);
+    border: 1px;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+    max-width: 380px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-image {
+    width: 100%;
+    border: 0.75rem;
+}
+
+.card-tag {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    font-size: 0.875rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    display: inline-block;
+}
+
+.card-date {
+    color: hsl(0, 0%, 7%);
+    font-size: 0.875rem;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    font-size: 1.5rem;
+}
+
+.card-title a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.card-description {
+    color: hsl(0, 0%, 42%);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.card-author {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.card-author img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.card-author span {
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: hsl(0, 0%, 7%);
+}
