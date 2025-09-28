@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog preview card screenshot(<img width="1920" height="927" alt="Screenshot 2025-09-27 at 23-41-28 Frontend Mentor Blog preview card" src="https://github.com/user-attachments/assets/c7bbe14a-39f1-4615-99a7-c7c50f751133" />
+![Blog preview card screenshot]<img width="1920" height="927" alt="Screenshot 2025-09-27 at 23-41-28 Frontend Mentor Blog preview card" src="https://github.com/user-attachments/assets/c7bbe14a-39f1-4615-99a7-c7c50f751133" />
 
 ### Links
 
